@@ -21,7 +21,7 @@ const router = createRouter({
     {
       path: '/admin/riwayat_tabungan',
       name: 'RiwayatTabungan',
-      component: () => import('../views/Admin/riwayat_tabungan/indexView.vue'),
+      component: () => import('../views/Admin/riwayat_tabungan/IndexView.vue'),
     },
     {
       path: '/admin/siswa/edit/:id',
